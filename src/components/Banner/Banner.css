@@ -11,7 +11,7 @@
   margin-top: 2rem;
 }
 
-.greeting-main {
+.banner-main {
   display: flex;
 }
 
@@ -19,31 +19,31 @@
   color: #868e96 !important;
 }
 
-.greeting-main {
+.banner-main {
   display: flex;
 }
 
-.greeting-main > * {
+.banner-main > * {
   flex: 1;
   margin-bottom: 30px;
 }
-.button-greeting-div {
+.button-banner-div {
   display: flex;
   margin-top: 20px;
 }
 
-.greeting-text {
+.banner-text {
   font-size: 70px;
   line-height: 1.1;
   color: black !important;
 }
 
-.greeting-text-p {
+.banner-text-p {
   font-size: 30px;
   line-height: 40px;
 }
 
-.greeting-image-div > img {
+.banner-image-div > img {
   max-width: 100%;
   height: auto;
 }
@@ -82,30 +82,30 @@
 
 /* Media Query */
 @media (max-width: 1380px) {
-  .greeting-text {
+  .banner-text {
     font-size: 50px;
   }
-  .greeting-text-p {
+  .banner-text-p {
     font-size: 20px;
   }
 }
 @media (max-width: 768px) {
-  .button-greeting-div {
+  .button-banner-div {
     justify-content: space-around;
   }
-  .greeting-text {
+  .banner-text {
     font-size: 30px;
     text-align: center;
   }
-  .greeting-text-p {
+  .banner-text-p {
     font-size: 16px;
     line-height: normal;
     text-align: center;
   }
-  .greeting-main {
+  .banner-main {
     display: block;
   }
-  .greeting-image-div {
+  .banner-image-div {
     height: 256px;
   }
 }
