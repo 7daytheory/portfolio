@@ -1,25 +1,25 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
-const greeting = {
+const banner = {
   username: "Matthew Lowe",
   title: "Hello, I'm Matthew",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
   //Create Resume link in google drive ****************
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1NUDZgYWF2FcD186QV5UgqcKYO83vo22g/view?usp=sharing",
+  displayBanner: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 const socialMediaLinks = {
   github: "https://github.com/7daytheory",
-  linkedin: "https://www.linkedin.com/in/MatthewjLowe/",
+  linkedin: "https://www.linkedin.com/in/MatthewjLowe",
   gmail: "matthewjlowe11@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
@@ -256,7 +256,7 @@ const twitterDetails = {
 
 export {
   illustration,
-  greeting,
+  banner,
   socialMediaLinks,
   skillsSection,
   educationInfo,
