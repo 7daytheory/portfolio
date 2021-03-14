@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
+import React, {useState, useEffect, Suspense, lazy} from "react";
 import ApolloClient from "apollo-boost";
 import {gql} from "apollo-boost";
 import "./Projects.css";
@@ -19,6 +19,7 @@ export default function Projects() {
   }, []);
 
   function getRepoData() {
+    console.log(process.env.REACT_APP_GITHUB_TOKEN);
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
       request: operation => {
@@ -35,31 +36,19 @@ export default function Projects() {
         query: gql`
         {
         user(login: "${openSource.githubUserName}") {
-          pinnedItems(first: 6, types: [REPOSITORY]) {
-            totalCount
+          pinnedItems(first: 3, types: [REPOSITORY]) {
             edges {
               node {
                 ... on Repository {
                   name
                   description
-                  forkCount
-                  stargazers {
-                    totalCount
-                  }
                   url
-                  id
-                  diskUsage
-                  primaryLanguage {
-                    name
-                    color
-                  }
-                }
               }
             }
           }
         }
       }
-        `
+    }`
       })
       .then(result => {
         setrepoFunction(result.data.user.pinnedItems.edges);
