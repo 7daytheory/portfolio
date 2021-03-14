@@ -1,6 +1,5 @@
 import React from "react";
 import {Fade} from "react-reveal";
-import emoji from "react-easy-emoji";
 import "./Banner.css";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import Button from "../Button/Button";

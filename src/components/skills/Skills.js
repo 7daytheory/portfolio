@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React from "react";
 import "./Skills.css";
 import {illustration, skillsSection} from "../../content";
 import {Fade} from "react-reveal";
