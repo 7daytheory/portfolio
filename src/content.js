@@ -148,12 +148,23 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Developer & Software Security",
       company: "Quillsoft",
       date: "June 2016 – Present",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      role: "Developer",
+      company: "Strategic Transitions",
+      date: "June 2011 – 2016",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -225,7 +236,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Contact Me and I will return your message as soon as posssible.",
-  number: "Nice try spam callers",
   email_address: "matt@mattjlowe.com"
 };
 
