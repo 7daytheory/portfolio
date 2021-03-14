@@ -52,6 +52,7 @@
   display: block;
   flex: none;
   float: left;
+  margin-left: 15px;
   font-size: 1.5em;
   text-decoration: none;
   line-height: normal;

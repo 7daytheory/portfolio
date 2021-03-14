@@ -1,0 +1,14 @@
+.footer-text {
+  text-align: center;
+  color: #DDD !important;
+}
+
+.dark-mode {
+  color: white !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background: #333;
+}
