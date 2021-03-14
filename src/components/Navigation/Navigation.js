@@ -21,19 +21,19 @@ return (
       </label>
       <ul className={isDark ? "dark-menu menu" : "menu"}>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills">SKILLS</a>
           </li>
           <li>
-            <a href="#experience">Work Experiences</a>
+            <a href="#experience">WORK EXPERIENCE</a>
           </li>
           <li>
-            <a href="#achievements">Achievements</a>
+            <a href="#achievements">ACHIEVEMENTS</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">PROJECTS</a>
           </li>
         <li>
-          <a href="#contact">Contact Me</a>
+          <a href="#contact">CONTACT</a>
         </li>
         <li>
         </li>
