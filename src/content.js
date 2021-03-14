@@ -151,32 +151,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Developer & Software Security",
+      role: "Full Stack Developer",
       company: "Quillsoft",
       date: "June 2016 – Present",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Tasks/Work",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Responsible for all the license management for all large school districts plus single
+usages",
+"Built a PWA version of our desktop apps to keep up with use of chromebooks in schools
+across North America",
+"One of two people in the company allowed access to the databases &amp; cpanel to make
+changes manually and update the database schema",
+"Working with the other developers on new products when they require help"
+"Delivery of weekly progress reports to Owners and CEO"
       ]
     },
     {
-      role: "Developer",
+      role: "Web Developer",
       company: "Strategic Transitions",
       date: "June 2011 – 2016",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      desc: "Tasks/Work",
+      descBullets: [ "Responsible for all the database schema’s, front-end &amp; back-end programming",
+"Created the license management system from scratch which is now used for all of our desktop program, apps, and chrome extensions",
+"Encrypted all of the user’s information that may be considered sensitive",
+"Created a custom CMS system to control all website content",
+"Development of the Client Admin Web Panel to control their own bulk licenses and
+distribute them on their own"
       ]
     }
   ]
 };
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
@@ -185,7 +189,6 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
@@ -217,7 +220,6 @@ const bigProjects = {
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
