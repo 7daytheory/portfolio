@@ -151,9 +151,9 @@ const workExperiences = {
   display: false, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      date: "June 2018 – Present",
+      role: "Developer & Software Security",
+      company: "Quillsoft",
+      date: "June 2016 – Present",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [

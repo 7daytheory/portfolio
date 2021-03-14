@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React from "react";
 import "./Contact.css";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../content";
