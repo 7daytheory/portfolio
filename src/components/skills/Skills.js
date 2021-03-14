@@ -1,6 +1,7 @@
-import React, {useContext} from "react";
+import React from "react";
 import "./Skills.css";
 import {illustration, skillsSection} from "../../content";
+import SoftwareSkill from "../softwareSkill/SoftwareSkill";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/images/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -40,37 +41,23 @@ export default function Skills() {
               }
             >
               {skillsSection.subTitle}
-            </p>
-                <div className="software-skills-main-div">
-                  <ul className="dev-icons">
-                    {skillsSection.softwareSkills.map((skills, i) => {
-                      <li
+              </p>
+              <SoftwareSkill />
+              <div>
+                {skillsSection.skills.map((skills, i) => {
+                  return (
+                    <p
                       key={i}
-                      className="software-skill-inline"
-                      name={skills.skillName}
-                      >
-                      <i className={skills.fontAwesomeClassname}></i>
-                      <p>{skills.skillName}</p>
-                      </li>
+                      className={
+                        isDark
+                          ? "dark-mode subTitle skills-text"
+                          : "subTitle skills-text"
+                      }
+                    >
+                      {skills}
+                    </p>
+                  );
                 })}
-                </ul>
-                </div>
-
-            <div>
-              {skillsSection.skills.map((skills, i) => {
-                return (
-                  <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
-                  </p>
-                );
-              })}
             </div>
           </div>
         </Fade>
