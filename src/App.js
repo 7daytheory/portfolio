@@ -6,6 +6,7 @@ import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
 import WorkExperience from './components/workExperience/WorkExperience';
 import Footer from './components/footer/Footer';
+import Top from './components/topButton/Top';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <WorkExperience />
         <Contact />
         <Footer />
+        <Top />
     </div>
   );
 }
