@@ -8,7 +8,7 @@ const banner = {
   username: "Matthew Lowe",
   title: "Hello, I'm Matthew",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer who has experience building Web and Mobile applications with JavaScript / React / Vue / PHP and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1NUDZgYWF2FcD186QV5UgqcKYO83vo22g/view?usp=sharing",
@@ -27,19 +27,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Full stack developer that enjoys Javascript a lot",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+    "Progressive Web Applications ( PWA )",
+    "Integration of third party services such as Firebase/ AWS / React"
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -104,27 +97,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Fanshawe College",
+      subHeader: "Interactive Media & Development",
+      duration: "September 2010 - May 2012",
+      desc: "Coding & Multimedia Course",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Hired during my final year by a company doing a project with our class of 100s of students",
       ]
     },
     {
-      schoolName: "Stanford University",
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Fanshawe College",
+      subHeader: "Graphic Design",
+      duration: "September 2009 - May 2010",
+      desc: "Finished the first year but decided to take a more coding specific course",
+      descBullets: ["I have a strong Graphic Design background to go along with my coding."]
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// Tech Stack Section
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
@@ -155,6 +146,7 @@ const workExperiences = {
       company: "Quillsoft",
       date: "June 2016 – Present",
       desc: "Tasks/Work",
+      companylogo: "./assets/images/quillsoft_logo.png",
       descBullets: [ "Responsible for all the license management for all large school districts plus single usages",
 "Built a PWA version of our desktop apps to keep up with use of chromebooks in schools across North America",
 "One of two people in the company allowed access to the databases &amp; cpanel to make changes manually and update the database schema",
@@ -167,6 +159,7 @@ const workExperiences = {
       company: "Strategic Transitions",
       date: "June 2011 – 2016",
       desc: "Tasks/Work",
+      companylogo: "./assets/images/st_logo.png",
       descBullets: [ "Responsible for all the database schema’s, front-end &amp; back-end programming",
 "Created the license management system from scratch which is now used for all of our desktop program, apps, and chrome extensions",
 "Encrypted all of the user’s information that may be considered sensitive",
@@ -181,36 +174,6 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "7daytheory", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -245,7 +208,6 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
   achievementSection,
   contactInfo
 };

@@ -26,6 +26,8 @@
 @media (max-width: 1380px) {
   .experience-heading {
     font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
   }
 }
 

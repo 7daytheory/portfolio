@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import logo from "../../assets/images/logo.svg";
 
 let isDark = true;
 
@@ -7,9 +8,8 @@ function Navigation() {
 return (
     <header className={isDark ? "dark-menu header" : "header"}>
       <a href="/" className="logo">
-        <span className="grey-color"> &lt;</span>
-        <span className="logo-name">Matt Lowe</span>
-        <span className="grey-color">/&gt;</span>
+        <img src={logo}
+        alt="MATTHEW LOWE"/>
       </a>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label
