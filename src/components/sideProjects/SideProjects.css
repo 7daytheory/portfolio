@@ -1,0 +1,39 @@
+.sideprojects-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1rem 1rem;
+}
+
+.sideprojects-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.sideprojects-container {
+  display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.sideprojects-container > * {
+  flex: 1;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+  .sideprojects-heading {
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sideprojects-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+}
