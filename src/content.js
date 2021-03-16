@@ -156,17 +156,10 @@ const sideProjects = {
       projectImage: null
     },
     {
-      projectName: "Shopping List",
-      projectDesc: "Add and remove items from a shopping list",
-      projectType: "React, Javascript, CRUD, HTML",
-      projectLink: "shopping_list/index.html",
-      projectImage: null
-    },
-    {
       projectName: "X's and O's",
       projectDesc: "Play X's and O's !",
       projectType: "React, Javascript, HTML",
-      projectLink: "XsandOs/index.html",
+      projectLink: "src/XsandOs/index.html",
       projectImage: null
     }
   ]
