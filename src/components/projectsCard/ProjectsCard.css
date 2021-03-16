@@ -1,0 +1,138 @@
+.projects-card {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+}
+
+.projects-card-dark {
+  position: relative;
+  background-color: #171c28;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+}
+
+.projects-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+
+.projects-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background: linear-gradient(rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.9));
+  border-radius: 10px 10px 0px 0px;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+  height: 5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.projects-div-company {
+  position: absolute;
+  background: transparent;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-text-company {
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.projects-roundedimg {
+  position: absolute;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.projects-text-role {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0px;
+  padding-top: 1.5rem;
+  line-height: normal;
+}
+.dark-mode-text {
+  color: white !important;
+}
+.projects-text-date {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin: 0px;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+
+.projects-text-desc {
+  text-align: center;
+}
+
+.projects-text-details {
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+  .projects-text-role {
+    padding-top: 0.5rem;
+    font-size: 22px;
+  }
+  .projects-text-company {
+    font-size: 22px;
+  }
+  .projects-text-date {
+    font-size: 18px;
+  }
+  .projects-roundedimg {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-text-role {
+    font-size: 22px;
+  }
+  .projects-text-company {
+    font-size: 22px;
+  }
+  .projects-text-date {
+    font-size: 18px;
+  }
+  .projects-text-desc {
+    font-size: 16px;
+  }
+}

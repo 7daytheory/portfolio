@@ -102,6 +102,27 @@ const educationInfo = {
   ]
 };
 
+// Side projects Section
+const sideProjects = {
+  display: true, // Set false to hide this section, defaults to true
+  projects: [
+    {
+      projectName: "The Venue",
+      projectDesc: "Landing Page with countdown for an event",
+      projectType: "Javascript, React, HTML5, CSS3",
+      projectLink: "./venue/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "The Venue2",
+      projectDesc: "Landing Page with countdown for an event",
+      projectType: "Javascript, React, HTML5, CSS3",
+      projectLink: "./venue/index.html",
+      projectImage: null
+    }
+  ]
+};
+
 // Tech Stack Section
 
 const techStack = {
@@ -188,7 +209,7 @@ const achievementSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me",
   subtitle:
     "Contact Me and I will return your message as soon as posssible.",
   email_address: "matt@mattjlowe.com"
@@ -202,7 +223,8 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   achievementSection,
-  contactInfo
+  contactInfo,
+  openSource,
+  sideProjects
 };
