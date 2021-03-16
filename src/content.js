@@ -110,14 +110,63 @@ const sideProjects = {
       projectName: "The Venue",
       projectDesc: "Landing Page with countdown for an event",
       projectType: "Javascript, React, HTML5, CSS3",
-      projectLink: "./venue/index.html",
+      projectLink: "venue/index.html",
       projectImage: null
     },
     {
-      projectName: "The Venue2",
-      projectDesc: "Landing Page with countdown for an event",
-      projectType: "Javascript, React, HTML5, CSS3",
-      projectLink: "./venue/index.html",
+      projectName: "2 Player Dice Game",
+      projectDesc: "Roll Dice to get to the score before your opponent",
+      projectType: "Javascript, HTML5, CSS3",
+      projectLink: "dice/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "Google Drive",
+      projectDesc: "Open and save files from your google drive",
+      projectType: "Javascript, RestAPI, GoogleDriveAPI, HTML5, CSS3",
+      projectLink: "GDrive/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "Hockey Stats",
+      projectDesc: "Get live updates on all NHL teams and players stats",
+      projectType: "Javascript, API, HTML5, CSS3, JQuery",
+      projectLink: "hockey/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "Simple Canvas HTML5 Game",
+      projectDesc: "Gollect all 6 infinity stones as Thanos",
+      projectType: "Javascript, HTML5, Canvas, CSS3",
+      projectLink: "html5Game/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "Kings",
+      projectDesc: "The game 'Kings' if you forget cards",
+      projectType: "Javascript, JQuery, HTML, CSS3",
+      projectLink: "kings/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "Quiz Game",
+      projectDesc: "(KC Chiefs) Quiz game that stores highscores",
+      projectType: "Javascript, HTML, CSS3, localstorage",
+      projectLink: "quiz/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "Shopping List",
+      projectDesc: "Add and remove items from a shopping list",
+      projectType: "React, Javascript, CRUD, HTML",
+      projectLink: "shopping_list/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "X's and O's",
+      projectDesc: "Play X's and O's !",
+      projectType: "React, Javascript, HTML",
+      projectLink: "XsandOs/index.html",
       projectImage: null
     }
   ]

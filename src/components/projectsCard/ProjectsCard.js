@@ -27,9 +27,10 @@ export default function ProjectsCard({cardInfo, isDark}) {
             }
           >
             {cardInfo.projectDesc}
-            
-            {cardInfo.link}
           </p>
+          <div class='projectBtn_wrap'>
+            <a href={cardInfo.link} class='projectsBtn' target='_blank'>View Demo</a>
+          </div>
         </div>
       </div>
     );
