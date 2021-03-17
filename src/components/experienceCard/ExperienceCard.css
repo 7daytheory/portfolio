@@ -22,7 +22,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
-  background: linear-gradient(rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.9));
+  background: #333;
   border-radius: 10px 10px 0px 0px;
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
