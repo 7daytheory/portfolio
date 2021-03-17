@@ -106,11 +106,25 @@ const educationInfo = {
 const sideProjects = {
   display: true, // Set false to hide this section, defaults to true
   projects: [
-    {
+  /*  {
       projectName: "The Venue",
       projectDesc: "Landing Page with countdown for an event",
       projectType: "Javascript, React, HTML5, CSS3",
       projectLink: "venue/index.html",
+      projectImage: null
+    },*/
+    {
+      projectName: "Quiz Game",
+      projectDesc: "(KC Chiefs) Quiz game that stores highscores",
+      projectType: "Javascript, HTML, CSS3, localstorage",
+      projectLink: "quiz/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "Kings",
+      projectDesc: "The game 'Kings' if you forget cards",
+      projectType: "Javascript, JQuery, HTML, CSS3",
+      projectLink: "kings/index.html",
       projectImage: null
     },
     {
@@ -136,32 +150,18 @@ const sideProjects = {
     },
     {
       projectName: "Simple Canvas HTML5 Game",
-      projectDesc: "Gollect all 6 infinity stones as Thanos",
+      projectDesc: "Gollect all 6 infinity stones as Thanos - Currently browser only",
       projectType: "Javascript, HTML5, Canvas, CSS3",
       projectLink: "html5Game/index.html",
       projectImage: null
     },
-    {
-      projectName: "Kings",
-      projectDesc: "The game 'Kings' if you forget cards",
-      projectType: "Javascript, JQuery, HTML, CSS3",
-      projectLink: "kings/index.html",
-      projectImage: null
-    },
-    {
-      projectName: "Quiz Game",
-      projectDesc: "(KC Chiefs) Quiz game that stores highscores",
-      projectType: "Javascript, HTML, CSS3, localstorage",
-      projectLink: "quiz/index.html",
-      projectImage: null
-    },
-    {
+  /*  {
       projectName: "X's and O's",
       projectDesc: "Play X's and O's !",
       projectType: "React, Javascript, HTML",
       projectLink: "src/XsandOs/index.html",
       projectImage: null
-    }
+    }*/
   ]
 };
 
