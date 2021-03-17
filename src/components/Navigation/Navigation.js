@@ -27,9 +27,6 @@ return (
             <a href="#experience">WORK EXPERIENCE</a>
           </li>
           <li>
-            <a href="#achievements">ACHIEVEMENTS</a>
-          </li>
-          <li>
             <a href="#projects">PROJECTS</a>
           </li>
         <li>
