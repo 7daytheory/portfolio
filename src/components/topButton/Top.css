@@ -2,7 +2,7 @@
   visibility: hidden;
   position: fixed;
   bottom: 10px;
-  right: 50px;
+  right: 10px;
   z-index: 99;
   border: none;
   outline: none;
@@ -17,4 +17,8 @@
 #topButton:hover {
   background-color: #333;
   transition: all ease-in-out 0.2s;
+}
+
+@media (max-width: 768px) {
+
 }

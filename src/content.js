@@ -134,13 +134,13 @@ const sideProjects = {
       projectLink: "dice/index.html",
       projectImage: null
     },
-    {
+  /*  {
       projectName: "Google Drive",
       projectDesc: "Open and save files from your google drive",
       projectType: "Javascript, RestAPI, GoogleDriveAPI, HTML5, CSS3",
       projectLink: "GDrive/index.html",
       projectImage: null
-    },
+    },*/
     {
       projectName: "Hockey Stats",
       projectDesc: "Get live updates on all NHL teams and players stats",
