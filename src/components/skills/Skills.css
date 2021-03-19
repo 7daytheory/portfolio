@@ -58,11 +58,12 @@
 @media (max-width: 1380px) {
   .skills-heading {
     font-size: 40px;
+    margin-top: 0px;
   }
 }
 @media (max-width: 768px) {
   .skills-heading {
-    margin-top: 0px;
+    margin-top: -50px;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
