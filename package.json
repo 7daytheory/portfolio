@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "Portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -46,16 +46,12 @@
   "devDependencies": {
     "url-loader": "^4.1.1"
   },
-  "description": "<h1>Portfolio made with React</h1>\r <p>Integrated lottie animations to projects for the first time</p>",
+  "description": "Matthew Lowe Developer Portfolio Site",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/7daytheory/portfolio"
-  },
   "author": "Matthew Lowe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/7daytheory/mattportfolio/issues"
+    "url": "/bugs"
   },
-  "homepage": "https://github.com/7daytheory/portfolio"
+  "homepage": "/"
 }
