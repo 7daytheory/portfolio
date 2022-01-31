@@ -27,11 +27,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Full stack developer that enjoys Javascript a lot",
   skills: [
-    "Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+    "Develop highly interactive Front end / User Interfaces for your applications",
     "Progressive Web Applications ( PWA )",
-    "Integration of third party services such as Firebase/ AWS / React"
+    "REST and other APIs"
   ],
 
   softwareSkills: [
@@ -52,10 +51,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "PHP",
       fontAwesomeClassname: "fab fa-php"
     },
@@ -66,10 +61,6 @@ const skillsSection = {
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "vue",
@@ -106,16 +97,16 @@ const educationInfo = {
 const sideProjects = {
   display: true, // Set false to hide this section, defaults to true
   projects: [
-  /*  {
+ {
       projectName: "The Venue",
       projectDesc: "Landing Page with countdown for an event",
       projectType: "Javascript, React, HTML5, CSS3",
       projectLink: "venue/index.html",
       projectImage: null
-    },*/
+    },
     {
       projectName: "Quiz Game",
-      projectDesc: "(KC Chiefs) Quiz game that stores highscores",
+      projectDesc: "Quiz game that uses an API to fetch questions",
       projectType: "Javascript, HTML, CSS3, localstorage",
       projectLink: "quiz/index.html",
       projectImage: null
@@ -134,13 +125,13 @@ const sideProjects = {
       projectLink: "dice/index.html",
       projectImage: null
     },
-  /*  {
+  {
       projectName: "Google Drive",
       projectDesc: "Open and save files from your google drive",
-      projectType: "Javascript, RestAPI, GoogleDriveAPI, HTML5, CSS3",
-      projectLink: "GDrive/index.html",
+      projectType: "Javascript, GoogleDriveAPI, HTML5, CSS3",
+      projectLink: "googledrive/index.html",
       projectImage: null
-    },*/
+    },
     {
       projectName: "Hockey Stats",
       projectDesc: "Get live updates on all NHL teams and players stats",
@@ -148,20 +139,20 @@ const sideProjects = {
       projectLink: "hockey/index.html",
       projectImage: null
     },
-    {
+   /* {
       projectName: "Simple Canvas HTML5 Game",
       projectDesc: "Gollect all 6 infinity stones as Thanos - Currently browser only",
       projectType: "Javascript, HTML5, Canvas, CSS3",
       projectLink: "html5Game/index.html",
       projectImage: null
-    },
-  /*  {
+    }, */
+  {
       projectName: "X's and O's",
-      projectDesc: "Play X's and O's !",
+      projectDesc: "Simple React X's and O's Game",
       projectType: "React, Javascript, HTML",
       projectLink: "src/XsandOs/index.html",
       projectImage: null
-    }*/
+    }
   ]
 };
 
@@ -200,29 +191,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Developer",
+      role: "Software Developer",
       company: "Quillsoft",
-      date: "June 2016 – Present",
+      date: "June 2016 - Present",
       desc: "Tasks/Work",
       companylogo: "./assets/images/quillsoft_logo.png",
-      descBullets: [ "Responsible for all the license management for all large school districts plus single usages",
-"Built a PWA version of our desktop apps to keep up with use of chromebooks in schools across North America",
-"One of two people in the company allowed access to the databases &amp; cpanel to make changes manually and update the database schema",
-"Working with the other developers on new products when they require help",
-"Delivery of weekly progress reports to Owners and CEO"
+      descBullets: [ "Created and growing the CMS that gives all our tech support the data that they need to help customers", "Worked on a PWA version of our main desktop app to keep up with use of chrome books in school", "Developed a license management system that is currently in use by every school district that uses our apps","Give design input and mock-up or code changes that will improve a products design and/or UI", "Take part in developer and management meetings weekly", "Using the most up to date methods to encrypt and keep the data we store safe"
       ]
     },
     {
-      role: "Web Developer",
+      role: "Developer",
       company: "Strategic Transitions",
-      date: "June 2011 – 2016",
+      date: "June 2011 - 2016",
       desc: "Tasks/Work",
       companylogo: "./assets/images/st_logo.png",
-      descBullets: [ "Responsible for all the database schema’s, front-end &amp; back-end programming",
-"Created the license management system from scratch which is now used for all of our desktop program, apps, and chrome extensions",
-"Encrypted all of the user’s information that may be considered sensitive",
-"Created a custom CMS system to control all website content",
-"Development of the Client Admin Web Panel to control their own bulk licenses and distribute them on their own"
+      descBullets: ["Created their websites and a CMS system for the website","Converted the company from shipping CD's to a subscription based model","Created the license management system which was used for all the companies applications and programs","Responsible for creating encryption methods for all the client's personal info", "Developed a CMS system to keep track of client data, content, and give our tech support team the data required to help people having issues"
       ]
     }
   ]

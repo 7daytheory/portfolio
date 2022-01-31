@@ -13,7 +13,6 @@ export default function Projects() {
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   
-  const {isDark} = false;
   useEffect(() => {
     getRepoData();
   }, []);

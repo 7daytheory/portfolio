@@ -5,7 +5,6 @@ import {Fade} from "react-reveal";
 import ProjectsCard from "../projectsCard/ProjectsCard";
 
 export default function SideProjects() {
-  const {isDark} = false;
   if (sideProjects.display) {
     return (
       <div id="">
@@ -18,7 +17,6 @@ export default function SideProjects() {
                   return (
                     <ProjectsCard
                       key={i}
-                      isDark={isDark}
                       cardInfo={{
                         projectName: card.projectName,
                         projectDesc: card.projectDesc,

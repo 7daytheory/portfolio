@@ -1,13 +1,10 @@
 import React from "react";
 import "./Contact.css";
 import SocialMedia from "../SocialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../content";
+import {contactInfo} from "../../content";
 import {Fade} from "react-reveal";
-import email from "../../assets/images/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
 export default function Contact() {
-  const {isDark} = false;
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -15,42 +12,70 @@ export default function Contact() {
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
             <p
-              className={
-                isDark
-                  ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
-              }
+              className="subTitle contact-subtitle"
             >
               {contactInfo.subtitle}
             </p>
-            <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
-              }
-            >
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                Email : {contactInfo.email_address}
-              </a>
+            <form
+	  		className="contact_form"
+	  		id="form"
+	  		method="post"
+	  		action="send.php"
+	  		>
+	  		
+	  		<label for="name">
+	  		Name
+	  		</label><br />
+	  
+	  		<input
+	  		className="contact_input"
+	  		id="name"
+	  		name="name"
+	  		type="text"
+	  		placeholder="Your Name"
+	  		required
+	  		/><br />
+	  		
+	  		<label for="email">
+	  		Name
+	  		</label><br />
+	  	
+	  		<input
+	  		className="contact_input"
+	  		id="email"
+	  		name="email"
+	  		type="email"
+	  		placeholder="example@domain.com"
+	  		required
+	  		/><br />
+	  		
+	  		<label for="name">
+	  		What can I help you with?
+	  		</label><br />
+	  		
+	  		<textarea
+	  		classname="contact_textarea"
+	  		id="comments"
+	  		name="comments"
+	  		placeholder="Comments..."
+	  		required
+	  		>
+	  		</textarea>
+	  		<br />
+	  		<input
+	  		className="contact_btn"
+	  		type="submit"
+	  		value="SUBMIT"
+	  		/>
+	  		
+	  
+	  		</form>
               <br />
               <br />
               <SocialMedia />
             </div>
           </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
-          </div>
         </div>
-      </div>
     </Fade>
   );
 }

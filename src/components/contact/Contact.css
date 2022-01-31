@@ -1,9 +1,6 @@
 .contact-div-main {
+	text-align: center;
   display: flex;
-}
-
-.dark-mode a {
-  color: white;
 }
 
 .contact-div-main > * {
@@ -11,6 +8,8 @@
 }
 
 .contact-title {
+  text-align: center;
+  color: #ea4335;
   font-size: 65px;
   font-weight: 400;
 }
@@ -32,6 +31,7 @@
 }
 
 .contact-subtitle {
+	text-align: center;
   text-transform: uppercase;
 }
 
@@ -48,6 +48,53 @@
   height: auto;
   margin-left: 1.5rem;
   margin-top: -4rem;
+}
+
+.contact_input {
+	max-width: 400px;
+	width: 60%;
+	height: 25px;
+	text-align: left;
+	padding: 3px 5px;
+	margin: 10px auto;
+	border: 1px solid #333;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.contact_form textarea {
+	max-width: 400px;
+	width: 70%;
+	text-align: left;
+	padding: 3px 5px;
+	margin: 10px auto;
+	border: 1px solid #333;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height: 100px;
+	
+}
+
+.contact_btn {
+	color: #FFF;
+	font-size: 1.1em;
+	background: #ea4335;
+	padding: 8px 25px;
+	text-align: center;
+	align-content: center;
+	cursor: pointer;
+	border-radius: 3px;
+	border: 2px solid #ea4335;
+	margin-top: 15px;
+}
+
+.contact_btn:hover {
+	transition-duration: 0.5s;
+	border: 2px solid #ea4335;
+	color: #ea4335;
+	background: #FFF;
 }
 
 /* Media Query */

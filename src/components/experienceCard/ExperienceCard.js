@@ -1,28 +1,14 @@
-import React, {useState, createRef} from "react";
+import React from "react";
 import "./ExperienceCard.css";
-import ColorThief from "colorthief";
 
-export default function ExperienceCard({cardInfo, isDark}) {
-  const [colorArrays, setColorArrays] = useState([]);
-  const imgRef = createRef();
+export default function ExperienceCard({cardInfo}) {
 
-  function getColorArrays() {
-    const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
-  }
-
-  function rgb(values) {
-    return typeof values === "undefined"
-      ? null
-      : "rgb(" + values.join(", ") + ")";
-  }
-
-  const GetDescBullets = ({descBullets, isDark}) => {
+  const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (
           <li
             key={i}
-            className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+            className="subTitle"
           >
             {item}
           </li>
@@ -31,42 +17,30 @@ export default function ExperienceCard({cardInfo, isDark}) {
   };
 
   return (
-    <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <div style={{background: rgb(colorArrays)}} className="experience-banner">
+    <div className="experience-card">
+      <div className="experience-banner">
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
       </div>
       <div className="experience-text-details">
         <h5
-          className={
-            isDark
-              ? "experience-text-role dark-mode-text"
-              : "experience-text-role"
-          }
+          className="experience-text-role"
         >
           {cardInfo.role}
         </h5>
         <h5
-          className={
-            isDark
-              ? "experience-text-date dark-mode-text"
-              : "experience-text-date"
-          }
+          className="experience-text-date"
         >
           {cardInfo.date}
         </h5>
         <p
-          className={
-            isDark
-              ? "subTitle experience-text-desc dark-mode-text"
-              : "subTitle experience-text-desc"
-          }
+          className="subTitle experience-text-desc"
         >
           {cardInfo.desc}
         </p>
         <ul>
-          <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
+          <GetDescBullets descBullets={cardInfo.descBullets} />
         </ul>
       </div>
     </div>

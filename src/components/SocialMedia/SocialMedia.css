@@ -1,5 +1,8 @@
 .social-media-div {
-  font-size: 2em;
+	clear: both;
+  	font-size: 2em;
+	margin-top: 55px;
+	text-align: center;
 }
 
 .icon-button {

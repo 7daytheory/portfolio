@@ -11,7 +11,6 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import {illustration, banner} from "../../content";
 
 function Banner() {
-  const {isDark} = false;
   if (!banner.displayBanner) {
     return null;
   }
@@ -22,17 +21,13 @@ function Banner() {
           <div className="banner-text-div">
             <div>
               <h1
-                className={isDark ? "dark-mode banner-text" : "banner-text"}
+                className="banner-text"
               >
                 {" "}
                 {banner.title}{" "}
               </h1>
               <p
-                className={
-                  isDark
-                    ? "dark-mode banner-text-p"
-                    : "banner-text-p subTitle"
-                }
+                className="banner-text-p subTitle"
               >
                 {banner.subTitle}
               </p>

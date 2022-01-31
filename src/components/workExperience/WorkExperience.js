@@ -5,7 +5,6 @@ import {workExperiences} from "../../content";
 import {Fade} from "react-reveal";
 
 export default function WorkExperience() {
-  const {isDark} = false;
   if (workExperiences.display) {
     return (
       <div id="experience">
@@ -18,7 +17,6 @@ export default function WorkExperience() {
                   return (
                     <ExperienceCard
                       key={i}
-                      isDark={isDark}
                       cardInfo={{
                         company: card.company,
                         desc: card.desc,
