@@ -7,11 +7,10 @@ const illustration = {
 const banner = {
   username: "Matthew Lowe",
   title: "Hello, I'm Matthew",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer who has experience building Web and Mobile applications with JavaScript / React / Vue / PHP and some other cool libraries and frameworks."
-  ),
+  subTitle:
+    "A passionate Full Stack Software Developer who has experience building Web and PWA applications with HTML/CSS , JavaScript , React , PHP and some other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/file/d/1NUDZgYWF2FcD186QV5UgqcKYO83vo22g/view?usp=sharing",
+    "https://drive.google.com/file/d/1FP3l8Idg7Rgxj9OCuoyfPU1ce9XtTNnT/view?usp=sharing",
   displayBanner: true // Set false to hide this section, defaults to true
 };
 
@@ -24,13 +23,12 @@ const socialMediaLinks = {
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
   skills: [
     "Develop highly interactive Front end / User Interfaces for your applications",
-    "Progressive Web Applications ( PWA )",
-    "REST and other APIs"
+    "Progressive Web Applications, Strong knowledge of APIs",
+	 "Building and Maintaining databases"
   ],
 
   softwareSkills: [
@@ -98,10 +96,10 @@ const sideProjects = {
   display: true, // Set false to hide this section, defaults to true
   projects: [
  {
-      projectName: "The Venue",
-      projectDesc: "Landing Page with countdown for an event",
+      projectName: "KC Chiefs Landing Page",
+      projectDesc: "Landing Page with countdown to kickoff next season",
       projectType: "Javascript, React, HTML5, CSS3",
-      projectLink: "venue/index.html",
+      projectLink: "chiefs/index.html",
       projectImage: null
     },
     {
@@ -118,39 +116,25 @@ const sideProjects = {
       projectLink: "kings/index.html",
       projectImage: null
     },
-    {
-      projectName: "2 Player Dice Game",
-      projectDesc: "Roll Dice to get to the score before your opponent",
-      projectType: "Javascript, HTML5, CSS3",
-      projectLink: "dice/index.html",
-      projectImage: null
-    },
   {
       projectName: "Google Drive",
       projectDesc: "Open and save files from your google drive",
-      projectType: "Javascript, GoogleDriveAPI, HTML5, CSS3",
+      projectType: "Javascript, Google API, HTML5, CSS3",
       projectLink: "googledrive/index.html",
       projectImage: null
     },
     {
       projectName: "Hockey Stats",
-      projectDesc: "Get live updates on all NHL teams and players stats",
+      projectDesc: "REST Api to get data on each team",
       projectType: "Javascript, API, HTML5, CSS3, JQuery",
       projectLink: "hockey/index.html",
       projectImage: null
     },
-   /* {
-      projectName: "Simple Canvas HTML5 Game",
-      projectDesc: "Gollect all 6 infinity stones as Thanos - Currently browser only",
-      projectType: "Javascript, HTML5, Canvas, CSS3",
-      projectLink: "html5Game/index.html",
-      projectImage: null
-    }, */
   {
       projectName: "X's and O's",
       projectDesc: "Simple React X's and O's Game",
       projectType: "React, Javascript, HTML",
-      projectLink: "src/XsandOs/index.html",
+      projectLink: "XsandOs/index.html",
       projectImage: null
     }
   ]
@@ -221,7 +205,7 @@ const openSource = {
 // Achievement Section
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications"),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 

@@ -13,11 +13,13 @@ function App() {
   return (
     <div className="App">
         <Navigation />
+	  <div className='wrap_content'>
         <Banner />
         <Skills />
         <SideProjects />
         <WorkExperience />
         <Contact />
+	 </div>
         <Footer />
         <Top />
     </div>

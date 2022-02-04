@@ -1,3 +1,8 @@
 #root {
   overflow-x: hidden;
 }
+
+.wrap_content {
+	margin: auto;
+	max-width: 1080px;
+}

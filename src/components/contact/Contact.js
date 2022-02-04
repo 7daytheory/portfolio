@@ -37,7 +37,7 @@ export default function Contact() {
 	  		/><br />
 	  		
 	  		<label for="email">
-	  		Name
+	  		Email Address
 	  		</label><br />
 	  	
 	  		<input

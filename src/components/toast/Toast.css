@@ -1,0 +1,50 @@
+/* CSS Document */
+
+#alert_msg {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+}
+
+#alert_msg.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 1s 2.6s;
+  animation: fadein 0.5s, fadeout 1s 2.6s;
+}
+
+#alert_msg.error {
+  background-color: #833;
+}
+
+/* Animations to fade the toast message *OPTIONAL* */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
