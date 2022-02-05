@@ -8,7 +8,7 @@ const banner = {
   username: "Matthew Lowe",
   title: "Hello, I'm Matthew",
   subTitle:
-    "A passionate Full Stack Software Developer who has experience building Web and PWA applications with HTML/CSS , JavaScript , React , PHP and some other cool libraries and frameworks.",
+    "A passionate Software Developer who has experience building Web and Mobile applications with HTML/CSS , JavaScript , React , PHP, and other cool libraries and frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1FP3l8Idg7Rgxj9OCuoyfPU1ce9XtTNnT/view?usp=sharing",
   displayBanner: true // Set false to hide this section, defaults to true
@@ -95,7 +95,14 @@ const educationInfo = {
 const sideProjects = {
   display: true, // Set false to hide this section, defaults to true
   projects: [
- {
+	  {
+      projectName: "Kings",
+      projectDesc: "The game 'Kings' if you forget cards",
+      projectType: "Javascript, JQuery, HTML, CSS3",
+      projectLink: "kings/index.html",
+      projectImage: null
+    },
+ 	{
       projectName: "KC Chiefs Landing Page",
       projectDesc: "Landing Page with countdown to kickoff next season",
       projectType: "Javascript, React, HTML5, CSS3",
@@ -109,31 +116,24 @@ const sideProjects = {
       projectLink: "quiz/index.html",
       projectImage: null
     },
-    {
-      projectName: "Kings",
-      projectDesc: "The game 'Kings' if you forget cards",
-      projectType: "Javascript, JQuery, HTML, CSS3",
-      projectLink: "kings/index.html",
-      projectImage: null
-    },
   {
       projectName: "Google Drive",
       projectDesc: "Open and save files from your google drive",
-      projectType: "Javascript, Google API, HTML5, CSS3",
-      projectLink: "googledrive/index.html",
+      projectType: "Temporarily disabled - requires 3rd party cookies",
+      projectLink: "#",
       projectImage: null
     },
     {
       projectName: "Hockey Stats",
-      projectDesc: "REST Api to get data on each team",
-      projectType: "Javascript, API, HTML5, CSS3, JQuery",
+      projectDesc: "API to get live data on each team",
+      projectType: "Javascript, REST API, HTML5, CSS3, JQuery",
       projectLink: "hockey/index.html",
       projectImage: null
     },
   {
       projectName: "X's and O's",
       projectDesc: "Simple React X's and O's Game",
-      projectType: "React, Javascript, HTML",
+      projectType: "React, Javascript, HTML, CSS",
       projectLink: "XsandOs/index.html",
       projectImage: null
     }
