@@ -150,7 +150,7 @@ const workExperiences = {
       company: "Quillsoft",
       date: "June 2016 - Present",
       desc: "Tasks/Work",
-      companylogo: "./assets/images/quillsoft_logo.png",
+      companylogo: "assets/images/quillsoft_logo.png",
       descBullets: [ "Created and growing the CMS that gives all our tech support the data that they need to help customers", "Worked on a PWA version of our main desktop app to keep up with use of chrome books in school", "Developed a license management system that is currently in use by every school district that uses our apps","Give design input and mock-up or code changes that will improve a products design and/or UI", "Take part in developer and management meetings weekly", "Using the most up to date methods to encrypt and keep the data we store safe"
       ]
     },
@@ -159,7 +159,7 @@ const workExperiences = {
       company: "Strategic Transitions",
       date: "June 2011 - 2016",
       desc: "Tasks/Work",
-      companylogo: "./assets/images/st_logo.png",
+      companylogo: "assets/images/st_logo.png",
       descBullets: ["Created their websites and a CMS system for the website","Converted the company from shipping CD's to a subscription based model","Created the license management system which was used for all the companies applications and programs","Responsible for creating encryption methods for all the client's personal info", "Developed a CMS system to keep track of client data, content, and give our tech support team the data required to help people having issues"
       ]
     }
