@@ -10,7 +10,7 @@ const banner = {
   subTitle:
     "A passionate Software Developer who has experience building Web and Mobile applications with HTML/CSS , JavaScript , React , PHP, and other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/file/d/1FP3l8Idg7Rgxj9OCuoyfPU1ce9XtTNnT/view?usp=sharing",
+    "https://drive.google.com/file/d/1Vx8WamAgtnqkji67zwbEX1cn9xjCFu4a/view?usp=sharing",
   displayBanner: true // Set false to hide this section, defaults to true
 };
 
@@ -138,35 +138,6 @@ const sideProjects = {
       projectImage: null
     }
   ]
-};
-
-// Tech Stack Section
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design",
-      progressPercentage: "85%" 
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "75%"
-    },
-    {
-      Stack: "Javascript",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "PHP",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "React",
-      progressPercentage: "75%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
