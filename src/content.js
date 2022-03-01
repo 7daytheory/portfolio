@@ -97,9 +97,9 @@ const sideProjects = {
   projects: [
 	  {
       projectName: "Kings",
-      projectDesc: "The game 'Kings' if you forget cards",
+      projectDesc: "Available in Google Play Store!",
       projectType: "Javascript, JQuery, HTML, CSS3",
-      projectLink: "kings/index.html",
+      projectLink: "https://play.google.com/store/apps/details?id=com.mattjlowe.www.twa",
       projectImage: null
     },
  	{
@@ -201,7 +201,6 @@ export {
   socialMediaLinks,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   achievementSection,
   contactInfo,

@@ -7,6 +7,7 @@ import WorkExperience from './components/workExperience/WorkExperience';
 import Footer from './components/footer/Footer';
 import SideProjects from './components/sideProjects/SideProjects';
 import Top from './components/topButton/Top';
+import Resume from './components/Resume/Resume';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Navigation />
 	  <div className='wrap_content'>
         <Banner />
+        <Resume />
         <Skills />
         <SideProjects />
         <WorkExperience />

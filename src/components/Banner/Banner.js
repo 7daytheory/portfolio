@@ -1,8 +1,6 @@
 import React from "react";
 import {Fade} from "react-reveal";
 import "./Banner.css";
-import SocialMedia from "../SocialMedia/SocialMedia";
-import Button from "../Button/Button";
 
 //Maybes
 import landingPerson from "../../assets/images/lottie/landingPerson";
@@ -31,15 +29,6 @@ function Banner() {
               >
                 {banner.subTitle}
               </p>
-              <SocialMedia />
-              <div className="button-banner-div">
-                <Button text="Contact me" href="#contact" />
-                <Button
-                  text="See my resume"
-                  newTab={true}
-                  href={banner.resumeLink}
-                />
-              </div>
             </div>
           </div>
           <div className="banner-image-div">
