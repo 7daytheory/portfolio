@@ -1,4 +1,5 @@
 import React from 'react';
+import './Resume.css';
 
 import SocialMedia from "../SocialMedia/SocialMedia";
 import Button from "../Button/Button";

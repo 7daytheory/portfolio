@@ -1,0 +1,10 @@
+.resume_wrap {
+    padding: 1px;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+.resume_wrap a {
+  margin: 25px auto;
+}

@@ -8,9 +8,9 @@ const banner = {
   username: "Matthew Lowe",
   title: "Hello, I'm Matthew",
   subTitle:
-    "A passionate Software Developer who has experience building Web and Mobile applications with HTML/CSS , JavaScript , React , PHP, and other cool libraries and frameworks.",
+    "I'm a developer who has experience building Web and Mobile applications with JavaScript , React , PHP, Bootstrap, HTML/CSS(obviously) and other cool libraries and frameworks.",
   resumeLink:
-    "https://drive.google.com/file/d/1Vx8WamAgtnqkji67zwbEX1cn9xjCFu4a/view?usp=sharing",
+    "https://drive.google.com/file/d/11AQOclgLE_gI3fLC43fhNs1r7hS-i8an/view?usp=sharing",
   displayBanner: true // Set false to hide this section, defaults to true
 };
 
@@ -18,7 +18,7 @@ const banner = {
 const socialMediaLinks = {
   github: "https://github.com/7daytheory",
   linkedin: "https://www.linkedin.com/in/MatthewjLowe",
-  gmail: "matthewjlowe11@gmail.com",
+  gmail: "mlowecoding@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -28,7 +28,7 @@ const skillsSection = {
   skills: [
     "Develop highly interactive Front end / User Interfaces for your applications",
     "Progressive Web Applications, Strong knowledge of APIs",
-	 "Building and Maintaining databases"
+	  "Building and Maintaining databases"
   ],
 
   softwareSkills: [
@@ -60,10 +60,6 @@ const skillsSection = {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "vue",
-      fontAwesomeClassname: "fab fa-vuejs"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -107,6 +103,13 @@ const sideProjects = {
       projectDesc: "Landing Page with countdown to kickoff next season",
       projectType: "Javascript, React, HTML5, CSS3",
       projectLink: "chiefs/index.html",
+      projectImage: null
+    },
+    {
+      projectName: "Household manager",
+      projectDesc: "CRUD application with React that organizes roommate chores, supplies and more.",
+      projectType: "React, Bootstrap, Javscript",
+      projectLink: "househould/index.html",
       projectImage: null
     },
     {
